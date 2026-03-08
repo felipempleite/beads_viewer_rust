@@ -21,6 +21,7 @@ pub mod loader;
 pub mod model;
 pub mod pages_wizard;
 pub mod robot;
+#[cfg(feature = "tui")]
 pub mod tui;
 pub mod viewer_assets;
 
